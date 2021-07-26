@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Avurecicla/static/css/main.7a4afcd2.chunk.css",
+    "main.js": "/Avurecicla/static/js/main.da164c9d.chunk.js",
+    "main.js.map": "/Avurecicla/static/js/main.da164c9d.chunk.js.map",
+    "runtime-main.js": "/Avurecicla/static/js/runtime-main.e9b25271.js",
+    "runtime-main.js.map": "/Avurecicla/static/js/runtime-main.e9b25271.js.map",
+    "static/js/2.8e3f462d.chunk.js": "/Avurecicla/static/js/2.8e3f462d.chunk.js",
+    "static/js/2.8e3f462d.chunk.js.map": "/Avurecicla/static/js/2.8e3f462d.chunk.js.map",
+    "static/js/3.295279fd.chunk.js": "/Avurecicla/static/js/3.295279fd.chunk.js",
+    "static/js/3.295279fd.chunk.js.map": "/Avurecicla/static/js/3.295279fd.chunk.js.map",
+    "index.html": "/Avurecicla/index.html",
+    "static/css/main.7a4afcd2.chunk.css.map": "/Avurecicla/static/css/main.7a4afcd2.chunk.css.map",
+    "static/js/2.8e3f462d.chunk.js.LICENSE.txt": "/Avurecicla/static/js/2.8e3f462d.chunk.js.LICENSE.txt",
+    "static/media/2.ab4a4cba.svg": "/Avurecicla/static/media/2.ab4a4cba.svg",
+    "static/media/RGS_LOGO_BN.a30ae61d.jpg": "/Avurecicla/static/media/RGS_LOGO_BN.a30ae61d.jpg",
+    "static/media/Header.css": "/Avurecicla/static/media/businessBackground.d041c06f.jpg",
+    "static/media/Servicios.css": "/Avurecicla/static/media/representationCard.2832ae56.jpg",
+    "static/media/logoWatio.b8fabad7.jpg": "/Avurecicla/static/media/logoWatio.b8fabad7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9b25271.js",
+    "static/js/2.8e3f462d.chunk.js",
+    "static/css/main.7a4afcd2.chunk.css",
+    "static/js/main.da164c9d.chunk.js"
+  ]
+}
