@@ -44,3 +44,20 @@
   font-weight: 400;
   letter-spacing: 0.7rem;
 }
+
+@media (max-width: 600px) {
+  .header__text-box {
+    top: 60%;
+  }
+  .header__logo-box {
+    top: 3rem;
+  }
+  .heading-primary--main {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+  }
+  .heading-primary--sub {
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+  }
+}

@@ -23,3 +23,18 @@
 .center {
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .who__text-box {
+    top: 50rem;
+  }
+
+  .who__header {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+
+  p {
+    font-size: small;
+  }
+}

@@ -20,7 +20,7 @@ const Footer = () => {
               </li>
               <li className="footer__item">
                 <a
-                  href="../../../public/pdfs/AvisoLegal.pdf"
+                  href="../../assets/pdfs/AvisoLegal.pdf"
                   target="_blank"
                   className="footer__link"
                 >
@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li className="footer__item">
                 <a
-                  href="../../../public/pdfs/Cookies.pdf"
+                  href="../../assets/pdfs/Cookies.pdf"
                   target="_blank"
                   className="footer__link"
                 >
@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li className="footer__item">
                 <a
-                  href="../../../public/pdfs/Privacidad.pdf"
+                  href="../../assets/pdfs/Privacidad.pdf"
                   target="_blank"
                   className="footer__link"
                 >
