@@ -23,6 +23,7 @@ const Footer = () => {
                   href="../../assets/pdfs/AvisoLegal.pdf"
                   target="_blank"
                   className="footer__link"
+                  download
                 >
                   Aviso legal
                 </a>
@@ -32,6 +33,7 @@ const Footer = () => {
                   href="../../assets/pdfs/Cookies.pdf"
                   target="_blank"
                   className="footer__link"
+                  download
                 >
                   Política de cookies
                 </a>
@@ -41,6 +43,7 @@ const Footer = () => {
                   href="../../assets/pdfs/Privacidad.pdf"
                   target="_blank"
                   className="footer__link"
+                  download
                 >
                   Privacidad
                 </a>
