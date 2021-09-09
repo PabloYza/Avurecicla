@@ -20,9 +20,10 @@ input {
 #contact {
   background: #f9f9f9;
   padding: 25px;
-  margin: 150px 0;
+  margin: 90px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   border-radius: 10px;
+  max-width: 80%;
 }
 
 #contact h3 {
@@ -52,7 +53,7 @@ fieldset {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
-  width: 100%;
+  width: 80%;
   border: 1px solid #ccc;
   background: #fff;
   margin: 0 0 5px;
@@ -82,9 +83,8 @@ fieldset {
   border: none;
   background: #4caf50;
   color: #fff;
-  margin: 0 0 5px;
   padding: 10px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 #contact button[type="submit"]:hover {
@@ -122,4 +122,15 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+@media (max-width: 600px) {
+  fieldset {
+    margin: 0px -10px 10px;
+  }
+
+  #contact button[type="submit"] {
+    width: 45%;
+    margin-left: 1rem;
+  }
 }

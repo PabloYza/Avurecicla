@@ -25,8 +25,12 @@
 }
 
 @media (max-width: 600px) {
+  .who {
+    margin-top: -20vh;
+    padding-top: 26rem;
+  }
   .who__text-box {
-    top: 50rem;
+    top: 60rem;
   }
 
   .who__header {

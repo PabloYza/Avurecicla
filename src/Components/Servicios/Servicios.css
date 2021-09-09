@@ -1,6 +1,6 @@
 .title-container {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem 0 0;
 }
 
 .row {
@@ -120,11 +120,14 @@
     font-size: 1rem;
     width: 60%;
   }
+  .card__heading-span--2 {
+    margin-left: -1rem;
+  }
   .heading-secondary {
     font-size: 1rem;
     letter-spacing: normal;
   }
   .row .col-1-of-3 {
-    width: calc((100% - 2 * -13rem) / 3);
+    width: calc((100% - 2 * -19rem) / 3);
   }
 }

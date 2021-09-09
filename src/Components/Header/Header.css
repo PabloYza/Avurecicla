@@ -50,7 +50,8 @@
     top: 60%;
   }
   .header__logo-box {
-    top: 3rem;
+    top: 8rem;
+    margin-left: 6.5rem;
   }
   .heading-primary--main {
     font-size: 2rem;
