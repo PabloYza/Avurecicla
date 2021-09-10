@@ -125,8 +125,13 @@ fieldset {
 }
 
 @media (max-width: 600px) {
+  #contact {
+    margin: 0%;
+    margin-bottom: 3rem;
+  }
+
   fieldset {
-    margin: 0px -10px 10px;
+    margin: 0px 0px 10px;
   }
 
   #contact button[type="submit"] {

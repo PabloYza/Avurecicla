@@ -8,6 +8,7 @@ const Footer = () => {
       <div className="footer__logo-box">
         <MySvg className="footer__logo" />
       </div>
+      <hr />
       <div className="row">
         <div className="col-1-of-2">
           <div className="footer__navigation">
