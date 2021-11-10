@@ -3,7 +3,7 @@ import "./App.css";
 
 import Header from "./Components/Header/Header";
 import Who from "./Components/Who/Who";
-import Servicios from "./Components/Servicios/Servicios";
+import HuellaCarbono from "./Components/HuellaCarbono/HuellaCarbono";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 
@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Who />
-      <Servicios />
+      <HuellaCarbono />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,23 @@
+.title-container {
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.heading-secondary {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+}
+
+.content {
+  text-align: initial;
+}
+
+.huellaImg {
+  text-align: center;
+}
