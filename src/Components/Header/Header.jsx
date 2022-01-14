@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header__text-box">
         <h1 className="heading-primary">
           <span className="heading-primary--main">Avurecicla</span>
-          <span className="heading-primary--sub">Conectando empresas</span>
+          <span className="heading-primary--sub">Huella de Carbono</span>
         </h1>
       </div>
     </div>

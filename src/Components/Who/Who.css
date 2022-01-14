@@ -1,10 +1,15 @@
 .who {
   background-color: #f7f7f7;
-  padding: 22rem 0;
+  padding: 15rem 0 25rem 0;
   margin-top: -20vh;
 }
 
+iframe {
+  margin: 3rem;
+}
+
 .who__text-box {
+  padding-top: 20rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -19,10 +24,10 @@
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
+  margin-bottom: 6rem;
 }
-.center {
-  text-align: center;
-}
+
+
 
 @media (max-width: 600px) {
   .who {

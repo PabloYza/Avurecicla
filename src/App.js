@@ -3,17 +3,15 @@ import "./App.css";
 
 import Header from "./Components/Header/Header";
 import Who from "./Components/Who/Who";
-import HuellaCarbono from "./Components/HuellaCarbono/HuellaCarbono";
 import Footer from "./Components/Footer/Footer";
-import Contact from "./Components/Contact/Contact";
+import TabComponent from "./Components/TabComponent/TabComponent";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
       <Who />
-      <HuellaCarbono />
-      <Contact />
+      <TabComponent/>
       <Footer />
     </div>
   );
