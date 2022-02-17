@@ -3,10 +3,9 @@ body {
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
+  font-size: calc(0.75em + 1vmin);
   line-height: 1.7;
   color: #046306;
-  padding: 1rem;
 }
 
 code {

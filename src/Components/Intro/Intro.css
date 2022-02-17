@@ -1,0 +1,136 @@
+.intro {
+  height: 35vh;
+/*   background-image: linear-gradient(
+      to right bottom,
+      rgba(40, 180, 133, 0.7),
+      rgba(40, 180, 133, 0.5)
+    ),
+    url(../../assets/forest.jpeg); */
+    background-image: url(../../assets/forest.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  
+}
+.intro__title-box {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* this % are in relation to the element itself (and not the parent) - this way we set it right in the middle */
+  text-align: center;
+}
+.intro-primary {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+.intro-primary--main {
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+.intro-primary--sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.7rem;
+  margin-top: 3rem;
+}
+
+.intro__text-box {
+  display: flex;
+  padding: 3rem;
+}
+
+/* Video section */
+.video {
+  padding-top: 10em;
+  margin-top: -20vh;
+}
+
+iframe {
+  margin: 3rem;
+  width: 1200px;
+  height: 800px;
+}
+
+.video__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.intro__header {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  margin: 3rem 2rem;
+}
+
+
+@media (max-width: 1300px) {
+  iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 900px) {
+  iframe {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .video {
+    margin-top: -20vh;
+    padding-top: 12 rem;
+  }
+
+  .video__header {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  iframe {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro__text-box {
+    text-align: justify;
+  }
+  .intro__title-box {
+    top: 60%;
+  }
+  .intro__logo-box {
+    top: 8rem;
+    margin-left: 6.5rem;
+  }
+  .intro-primary--main {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+  }
+  .intro-primary--sub {
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  iframe {
+    width: 300px;
+    height: 150px;
+  }
+}

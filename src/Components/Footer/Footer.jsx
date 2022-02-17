@@ -9,50 +9,34 @@ const Footer = () => {
         <MySvg className="footer__logo" />
       </div>
       <hr />
-      <div className="row">
-        <div className="col-1-of-2">
-          <div className="footer__navigation">
-            <ul className="footer_list">
-              <li className="footer__item">
-                {/* eslint-disable-next-line */}
-                <a href="#" className="footer__link">
-                  Company
-                </a>
-              </li>
-              <li className="footer__item">
-                <a
-                  href="../../assets/pdfs/AvisoLegal.pdf"
-                  target="_blank"
-                  className="footer__link"
-                  download
-                >
-                  Aviso legal
-                </a>
-              </li>
-              <li className="footer__item">
-                <a
-                  href="../../assets/pdfs/Cookies.pdf"
-                  target="_blank"
-                  className="footer__link"
-                  download
-                >
-                  Política de cookies
-                </a>
-              </li>
-              <li className="footer__item">
-                <a
-                  href="../../assets/pdfs/Privacidad.pdf"
-                  target="_blank"
-                  className="footer__link"
-                  download
-                >
-                  Privacidad
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-1-of-2"></div>
+      <div className="footer__navigation">
+        <a href="#" className="footer__link">
+          Company
+        </a>
+        <a
+            href="../../assets/pdfs/AvisoLegal.pdf"
+            target="_blank"
+            className="footer__link"
+            download
+          >
+            Aviso legal
+        </a>
+        <a
+          href="../../assets/pdfs/Cookies.pdf"
+          target="_blank"
+          className="footer__link"
+          download
+        >
+          Política de cookies
+        </a>
+        <a
+          href="../../assets/pdfs/Privacidad.pdf"
+          target="_blank"
+          className="footer__link"
+          download
+        >
+          Privacidad
+        </a>
       </div>
     </footer>
   );

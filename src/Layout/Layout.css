@@ -1,0 +1,7 @@
+.layout {
+  background: white;
+}
+.layout__content {
+  min-height: 280px;
+  padding: 1rem;
+}

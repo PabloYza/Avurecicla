@@ -1,24 +1,19 @@
 import React from "react";
-import "./Who.css";
+import "./Intro.css";
 
-const Who = () => {
+const Intro = () => {
   return (
-    <div className="who">
-      <h1 className="who__header">Quiénes somos</h1>
-      <div className="who__video"> 
-        <iframe 
-          width="1200" 
-          height="700" 
-          src="https://www.youtube.com/embed/GenycV14ZIY" 
-          title="Huella de Carbono" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen
-          >
-        </iframe>
+    <>
+      <div className="intro">
+        <div className="intro__title-box">
+          <h1 className="intro-primary">
+            <span className="intro-primary--main">Avurecicla</span>
+            <span className="intro-primary--sub">Huella de Carbono</span>
+          </h1>
+        </div>
       </div>
-      <div className="who__text-box">
-      <hr />
+      <h1 className="intro__header">Quiénes somos</h1>
+      <div className="intro__text-box">
         <div className="text" >
           <p>
           El elevado coste de la energía y los efectos que provoca el consumo energético en el cambio climático, 
@@ -42,8 +37,20 @@ const Who = () => {
           </p>
         </div>
       </div>
-    </div>
+      <div className="video">
+        <div className="video__video"> 
+          <iframe 
+            src="https://www.youtube.com/embed/GenycV14ZIY" 
+            title="Huella de Carbono" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            >
+          </iframe>
+        </div>
+      </div>
+    </>
   );
 };
 
-export default Who;
+export default Intro;
