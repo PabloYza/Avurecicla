@@ -1,18 +1,17 @@
 .footer {
   background-color: #34252F;
-  padding: 1rem 0;
+  padding-bottom: 1rem;
   font-size: 1rem;
   color: #f7f7f7;
 }
 .footer__logo-box {
   text-align: center;
-  margin-bottom: 2rem;
 }
 .footer__logo {
   height: 6rem;
 }
 .footer__navigation {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: space-around;
 }
