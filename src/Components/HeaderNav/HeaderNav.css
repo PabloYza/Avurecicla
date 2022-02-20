@@ -8,5 +8,23 @@
 
 .headerNav__content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerNav__links{
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 770px) {
+  .headerNav__links {
+    display: block;
+  }
+
 }

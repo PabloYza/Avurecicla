@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Compensar from './Pages/Compensar/Compensar'
+import Beneficios from './Pages/Beneficios/Beneficios'
+import Footer from "./Components/Footer/Footer";
+import HeaderNav from "./Components/HeaderNav/HeaderNav";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <HeaderNav/>
+      <Routes>
+        <Route path='/' element={<App />}/>
+        <Route path='/Beneficios' element={<Beneficios/>} />
+        <Route path='/Compensar&reducir' element={<Compensar/>} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
