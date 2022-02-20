@@ -1,0 +1,44 @@
+.beneficios__title {
+  height: 35vh;
+  background-image: url(../../assets/eco-1.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.beneficios__title-box {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  /* this % are in relation to the element itself (and not the parent) - this way we set it right in the middle */
+  text-align: center;
+}
+
+.beneficios__title-text {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+.beneficios__header {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #06d6a0;
+  letter-spacing: 0.2rem;
+  margin: 5rem 2rem -2rem 2rem;
+}
+
+.beneficios__text-box {
+  padding: 3rem;
+}
+
+@media(max-width: 900px) {
+  .beneficios__title-box {
+    transform: translate(-50%, -50%);
+  }
+}
