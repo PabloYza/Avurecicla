@@ -25,7 +25,7 @@ const HeaderNav = () => {
                 <Link to="/Beneficios">Beneficios</Link>
               </div>
               <div>
-                <Link to="/CalculateFootPrint">Calcula tu Huella</Link>
+                <Link to="/CalculateFootPrint">Calcula tu uella</Link>
               </div>
             </div>
           </div>
