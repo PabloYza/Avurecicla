@@ -49,7 +49,6 @@ const Intro = () => {
           </iframe>
         </div>
       </div>
-      <h1 className="intro__header">Calcula tu huella de carbono</h1>
     </>
   );
 };

@@ -11,7 +11,7 @@
   position: absolute;
   top: 22%;
   left: 50%;
-  transform: translate(-90%, -50%);
+  transform: translate(-90%, -20%);
   /* this % are in relation to the element itself (and not the parent) - this way we set it right in the middle */
   text-align: center;
 }
