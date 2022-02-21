@@ -1,0 +1,54 @@
+.calculateFootPrint__title {
+  height: 35vh;
+  background-image: url(../../assets/eco-3.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.calculateFootPrint__title-box {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-90%, -50%);
+  /* this % are in relation to the element itself (and not the parent) - this way we set it right in the middle */
+  text-align: center;
+}
+
+.calculateFootPrint__title-text {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+.calculateFootPrint__header {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #06d6a0;
+  letter-spacing: 0.2rem;
+  margin: 5rem 2rem -2rem 2rem;
+}
+
+.calculateFootPrint__text-box {
+  padding: 3rem;
+}
+
+@media(max-width: 900px) {
+  .calculateFootPrint__title-text {
+    font-size: 1.5rem;
+  }
+
+  .calculateFootPrint__title {
+    background-position: center;
+    background-image: url(../../assets/eco-4.png);
+  }
+
+  .calculateFootPrint__title-box {
+    transform: translate(-50%, -37%)
+  }
+}

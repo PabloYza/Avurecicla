@@ -11,7 +11,7 @@ const Footer = () => {
       <hr />
       <div className="footer__navigation">
         <a href="#" className="footer__link">
-          Company
+          Compañia
         </a>
         <a
             href="../../assets/pdfs/AvisoLegal.pdf"

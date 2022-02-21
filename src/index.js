@@ -8,6 +8,7 @@ import Compensar from './Pages/Compensar/Compensar'
 import Beneficios from './Pages/Beneficios/Beneficios'
 import Footer from "./Components/Footer/Footer";
 import HeaderNav from "./Components/HeaderNav/HeaderNav";
+import CalculateFootPrint from './Pages/Calcula/Calcula'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path='/' element={<App />}/>
         <Route path='/Beneficios' element={<Beneficios/>} />
         <Route path='/Compensar&reducir' element={<Compensar/>} />
+        <Route path='/CalculateFootPrint' element={<CalculateFootPrint/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
