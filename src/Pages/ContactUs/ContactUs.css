@@ -1,0 +1,30 @@
+.contactUs__title {
+  height: 35vh;
+  background-image: url(../../assets/contact-1.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.contactUs__title-box {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* this % are in relation to the element itself (and not the parent) - this way we set it right in the middle */
+  text-align: center;
+}
+
+.contactUs__title-text {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+.contactUs__content-box {
+  padding: 3rem;
+}

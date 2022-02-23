@@ -4,7 +4,6 @@ import { ReactComponent as MySvg } from "../../assets/2.svg";
 import './HeaderNav.css'
 import { Link } from "react-router-dom";
 
-
 const HeaderNav = () => {
   const { Header } = Layout;
 
@@ -19,13 +18,13 @@ const HeaderNav = () => {
                 <Link to="/">Inicio</Link>
               </div>
               <div>
-                <Link to="/Compensar&reducir">Compensar & Reducir</Link>
+                <Link to="/Nosotros">Nosotros</Link>
               </div>
               <div>
-                <Link to="/Beneficios">Beneficios</Link>
+                <Link to="/Servicios">Servicios</Link>
               </div>
               <div>
-                <Link to="/CalculateFootPrint">Calcula tu Huella</Link>
+                <Link to="/Contacto">Contacto</Link>
               </div>
             </div>
           </div>

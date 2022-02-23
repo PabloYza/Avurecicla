@@ -1,5 +1,5 @@
 .intro__title {
-  height: 35vh;
+  height: 40vh;
   background-image: url(../../assets/forest.jpeg);
   background-size: cover;
   background-position: top;
@@ -16,7 +16,7 @@
 .intro-primary {
   color: #fff;
   text-transform: uppercase;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .intro-primary--main {
   display: block;

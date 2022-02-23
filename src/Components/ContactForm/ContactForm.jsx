@@ -1,11 +1,11 @@
 import React from "react";
-import "./Contact.css";
+import "./ContactForm.css";
 
-const Contact = () => {
+const ContactForm = () => {
   return (
     <div className="container">
       <form
-        id="contact"
+        id="contactForm"
         action="https://formsubmit.co/info@avurecicla.eu"
         method="post"
       >
@@ -59,7 +59,7 @@ const Contact = () => {
         </fieldset>
         <div>
           <fieldset>
-            <button type="submit" id="contact-submit" data-submit="...Sending">
+            <button type="submit" id="contactForm-submit" data-submit="...Sending">
               Submit
             </button>
           </fieldset>
@@ -69,4 +69,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactForm;

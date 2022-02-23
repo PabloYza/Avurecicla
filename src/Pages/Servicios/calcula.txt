@@ -1,17 +1,4 @@
-import React from 'react'
-import './Calcula.css'
-
-const CalculateFootPrint = () => {
-
-
-  return (
-    <>
-      <div className="calculateFootPrint__title">
-        <div className="calculateFootPrint__title-box">
-          <h1 className="calculateFootPrint__title-text">Calcula tu huella de </h1>
-        </div>
-      </div>
-      <h1 className="calculateFootPrint__header">
+<h1 className="calculateFootPrint__header">
         ¿Sabes que es la compensación de emisiones de carbono?
       </h1>
       <div className="intro__text-box">
@@ -53,8 +40,3 @@ const CalculateFootPrint = () => {
           correspondiente por parte de la certificadora AENOR y Miteco
         </p>
       </div>
-    </>
-  )
-}
-
-export default CalculateFootPrint

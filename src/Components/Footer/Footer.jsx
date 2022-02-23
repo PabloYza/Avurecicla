@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { ReactComponent as MySvg } from "../../assets/2.svg";
+import { WhatsAppOutlined } from '@ant-design/icons'
 
 const Footer = () => {
   return (

@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Compensar from './Pages/Compensar/Compensar'
+import Who from './Pages/Who/Who'
 import Beneficios from './Pages/Beneficios/Beneficios'
 import Footer from "./Components/Footer/Footer";
 import HeaderNav from "./Components/HeaderNav/HeaderNav";
-import CalculateFootPrint from './Pages/Calcula/Calcula'
+import Servicios from './Pages/Servicios/Servicios'
+import ContactUs from './Pages/ContactUs/ContactUs';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,9 +17,10 @@ ReactDOM.render(
     <HeaderNav/>
       <Routes>
         <Route path='/' element={<App />}/>
+        <Route path='/Nosotros' element={<Who/>} />
+        <Route path='/Servicios' element={<Servicios/>} />
         <Route path='/Beneficios' element={<Beneficios/>} />
-        <Route path='/Compensar&reducir' element={<Compensar/>} />
-        <Route path='/CalculateFootPrint' element={<CalculateFootPrint/>} />
+        <Route path='/Contacto' element={<ContactUs/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -1,13 +1,13 @@
-.compensar__title {
+.who__title {
   height: 35vh;
-  background-image: url(../../assets/eco-2.jpeg);
+  background-image: url(../../assets/Who.jpeg);
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   position: relative;
   padding-bottom: 1rem;
 }
 
-.compensar__title-box {
+.who__title-box {
   position: absolute;
   top: 55%;
   left: 50%;
@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.compensar__title-text {
+.who__title-text {
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 3rem;
@@ -25,15 +25,6 @@
   letter-spacing: 1rem;
 }
 
-.compensar__header {
-  text-align: center;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: #06d6a0;
-  letter-spacing: 0.2rem;
-  margin: 5rem 2rem -2rem 2rem;
-}
-
-.compensar__text-box {
+.who__text-box {
   padding: 3rem;
 }

@@ -31,7 +31,7 @@ const Intro = () => {
             Lograr una diferenciación competitiva basada en el respeto al medio ambiente
             Avanzar hacia la mejora de la eficiencia energética con el consiguiente ahorro
             Potenciar la reputación corporativa ante clientes e instituciones.
-            La huella de carbono es una métrica ambiental que calcula la cantidad de emisiones de gases de efecto invernadero que emitimos a la atmósfera. 
+            La huella de carbono es una métrica ambiental que Servicios la cantidad de emisiones de gases de efecto invernadero que emitimos a la atmósfera. 
             Esta métrica es utilizada por las empresas para medir su impacto sobre el medio ambiente y establecer estrategias para reducirlo. 
             Sin embargo, no solo las empresas emiten CO2, una persona en su día a día contamina más de lo que creemos.
           </p>
